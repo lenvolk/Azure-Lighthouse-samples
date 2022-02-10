@@ -1,0 +1,2 @@
+New-AzSubscriptionDeployment -Name "Azure-Lighthouse" -Location "eastus2" -TemplateFile subscription.json -TemplateParameterFile subscription.parameters.json -Verbose
+# New-AzResourceGroupDeployment if only delegating access to the RGs
